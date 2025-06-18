@@ -1,0 +1,33 @@
+{
+  "name": "toolybot",
+  "version": "0.1.0",
+  "description": "A self hosted \"essential\" Discord bot.",
+  "keywords": [
+    "tooly",
+    "bot",
+    "discord",
+    "essential",
+    "toolybot"
+  ],
+  "homepage": "https://github.com/afonya2/toolybot#readme",
+  "bugs": {
+    "url": "https://github.com/afonya2/toolybot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonya2/toolybot.git"
+  },
+  "license": "MIT",
+  "author": "Afonya",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "pushCommands": "tsx pushCommands.ts"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.3",
+    "discord.js": "^14.20.0",
+    "sqlite": "^5.1.1"
+  }
+}

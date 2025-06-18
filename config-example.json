@@ -1,0 +1,6 @@
+{
+    "version": "0.1",
+    "token": "The token of your bot",
+    "guild": "The guild ID where the bot will be used",
+    "clientId": "The application ID of your bot"
+}
